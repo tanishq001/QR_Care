@@ -65,37 +65,52 @@
             android:rotation="180"/>
     </LinearLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
+      android:elevation="10dp"
         android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/linear_layout"
+        app:layout_constraintTop_toBottomOf="@+id/linear_layout2"
         android:background="@drawable/samplecardback"
         android:layout_marginHorizontal="20dp">
-        <TextView
-            android:textColor="#fff"
-            android:textSize="30dp"
 
+        <TextView
+            android:layout_marginTop="20dp"
             android:id="@+id/yourblance"
-            app:layout_constraintTop_toTopOf="parent"
             android:layout_width="wrap_content"
+
             android:layout_height="wrap_content"
-            android:text="Your Balance:"
-            app:layout_constraintStart_toStartOf="parent"/>
+            android:text="Your Balance :"
+            android:fontFamily="@font/belgrano"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
         <TextView
             android:id="@+id/balance"
             app:layout_constraintTop_toBottomOf="@+id/yourblance"
+            android:fontFamily="@font/belgrano"
+            android:textColor="#fff"
+            android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="00"
+
             app:layout_constraintStart_toStartOf="@+id/yourblance"/>
         <TextView
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/belgrano"
+            android:textColor="#fff"
+            android:textSize="25dp"
             android:id="@+id/totalearned"
             app:layout_constraintTop_toBottomOf="@+id/balance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Total Earned"
+            android:text="Total Earned :"
             app:layout_constraintStart_toStartOf="@+id/yourblance"/>
         <TextView
+            android:fontFamily="@font/belgrano"
+            android:textColor="#fff"
+            android:textSize="20dp"
             android:id="@+id/earned"
             app:layout_constraintTop_toBottomOf="@+id/totalearned"
             android:layout_width="wrap_content"
@@ -103,19 +118,30 @@
             android:text="00"
             app:layout_constraintStart_toStartOf="@+id/yourblance"/>
         <TextView
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/belgrano"
+            android:textColor="#fff"
+            android:textSize="25dp"
             android:id="@+id/totalreferral"
             app:layout_constraintTop_toBottomOf="@+id/earned"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Total Referral"
+            android:text="Total Referral :"
             app:layout_constraintStart_toStartOf="@+id/yourblance"/>
+
         <TextView
+
             android:id="@+id/referral"
-            app:layout_constraintTop_toBottomOf="@+id/totalreferral"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/belgrano"
             android:text="00"
-            app:layout_constraintStart_toStartOf="@+id/yourblance"/>
+            android:textColor="#fff"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/yourblance"
+            app:layout_constraintTop_toBottomOf="@+id/totalreferral"
+            android:layout_marginBottom="10dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

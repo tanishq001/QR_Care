@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Referral"></activity>
+        <activity android:name=".ChooseLayout"></activity>
+        <activity android:name=".Register" />
+        <activity android:name=".Referral" />
         <activity android:name=".CardList" />
         <activity android:name=".Profile" />
         <activity

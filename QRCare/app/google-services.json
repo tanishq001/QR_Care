@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "383163066025",
+    "project_id": "qr-care-f5554",
+    "storage_bucket": "qr-care-f5554.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383163066025:android:e83799256bf922b8666bb8",
+        "android_client_info": {
+          "package_name": "com.example.qrcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383163066025-bdn24t7l2gab81s9ui2qm94qeacb9eda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCthpKTtljDGZ1SPvrTNmQrtwiVmK_iPyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383163066025-bdn24t7l2gab81s9ui2qm94qeacb9eda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

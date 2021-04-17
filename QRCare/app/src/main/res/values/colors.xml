@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="MainTheme">#000</color>
+    <color name="editback">#454545</color>
 </resources>
