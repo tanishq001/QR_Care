@@ -1,4 +1,8 @@
 # The-Thinkers
 
-This is our first git push with our app UI. 
-If you face any problem please let us know as we are new to it
+Instructions to set up our app locally:
+
+Either clone QRCare folder on your system and run on android studio
+or just install apk in your android device or emulator.
+
+------------------------------Thank You------------------------------

@@ -59,6 +59,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
@@ -107,7 +108,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/username_text"
+            android:id="@+id/username_textp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-medium"
@@ -116,7 +117,7 @@
             android:textSize="30dp" />
 
         <TextView
-            android:id="@+id/mobile_text"
+            android:id="@+id/mobile_textp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-light"

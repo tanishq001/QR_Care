@@ -10,14 +10,14 @@
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="75dp"
         android:src="@drawable/login_image"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/image2"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="75dp"
         android:src="@drawable/login_image"
         app:layout_constraintBottom_toBottomOf="parent" />
     <TextView
@@ -79,6 +79,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email"
+            android:textColorHint="#fff"
+            app:hintTextColor="#fff"
             android:paddingTop="20dp"
             app:errorEnabled="true"
             app:layout_constraintTop_toTopOf="parent"
@@ -96,9 +98,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/pass"
-            android:textColorHint="#fff"
+
             app:endIconMode="password_toggle"
             app:errorEnabled="true"
+            android:textColorHint="#fff"
             app:hintTextColor="#fff"
             app:layout_constraintTop_toBottomOf="@+id/username_login"
             app:startIconDrawable="@drawable/ic_baseline_security_24">

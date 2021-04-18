@@ -7,21 +7,38 @@
     android:background="#fff">
 
     <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_share_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#000"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <ImageView
         android:id="@+id/qrcode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
-        android:src="@drawable/qrcode"
+        android:src="@drawable/loading"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_share_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#000"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="close"
-        android:background="#000"
+
         android:backgroundTint="#000"
         android:id="@+id/close"
         android:textColor="#fff"
